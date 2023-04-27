@@ -1,0 +1,16 @@
+{
+  "name": "quiz_game_backend",
+  "version": "1.0.0",
+  "description": "This is the api for sending the questions to the gk quiz game and it will be able to send questions based on the post request from the frontend",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "alrianyaseen",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
